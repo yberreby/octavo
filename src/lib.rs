@@ -27,6 +27,9 @@
 #![warn(unused_qualifications)]
 
 extern crate byteorder;
+
+#[macro_use] extern crate log;
+
 #[cfg(feature = "num")] extern crate num;
 #[cfg(feature = "rand")] extern crate rand;
 

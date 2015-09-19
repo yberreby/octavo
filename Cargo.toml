@@ -3,12 +3,13 @@ name = "octavo"
 version = "0.1.0"
 authors = ["Łukasz Niemier <lukasz@niemier.pl>"]
 
-description = "Highly modular crypto & hash library written in pure Rust"
+description = "Highly modular crypto & hash library"
 license = "MIT"
 repository = "https://github.com/hauleth/octavo"
 
 [dependencies]
 byteorder = "*"
+log = "*"
 rustc-serialize = "*"
 
 [dependencies.num]
